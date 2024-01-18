@@ -1,0 +1,17 @@
+.buttonLink {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #009688;
+  color: #fff;
+  border: 1px solid #009688;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttonLink:hover,
+buttonLink:focus {
+  opacity: 0.5;
+}

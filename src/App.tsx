@@ -1,7 +1,14 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import { HomePage } from './pages/HomePage/HomePage';
+
 export const App = () => {
+  const defaultPath = '/';
   return (
-    <main className="intro">
-      <h1>Mentoring frontend start</h1>
-    </main>
+    <Router>
+      <Routes>
+        <Route path={defaultPath} element={<HomePage />} />
+      </Routes>
+    </Router>
   );
 };
